@@ -1,0 +1,25 @@
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Galería</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let image of images; let i = index">
+      <div class="card h-100">
+        <img [src]="image.src" class="card-img-top" [alt]="image.alt" data-bs-toggle="modal" [attr.data-bs-target]="'#lightboxModal' + i">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox Modals -->
+<div *ngFor="let image of images; let i = index" class="modal fade" [id]="'lightboxModal' + i" tabindex="-1" aria-labelledby="lightboxModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="lightboxModalLabel">{{ image.alt }}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img [src]="image.src" class="img-fluid" [alt]="image.alt">
+      </div>
+    </div>
+  </div>
+</div>

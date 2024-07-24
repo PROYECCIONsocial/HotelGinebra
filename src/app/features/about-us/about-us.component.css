@@ -1,0 +1,17 @@
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+h2, h4 {
+  font-weight: bold;
+}

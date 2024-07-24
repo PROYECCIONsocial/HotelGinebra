@@ -1,0 +1,21 @@
+.carousel-inner img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.list-group-item {
+  font-size: 1.1em;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  font-size: 1.1em;
+}
+
+.container h2, .container h4 {
+  color: #333;
+}

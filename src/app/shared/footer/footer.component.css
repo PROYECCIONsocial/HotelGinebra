@@ -1,0 +1,31 @@
+footer {
+  .text-uppercase {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: #000;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+
+  .fab {
+    font-size: 1.5rem;
+  }
+
+  .p-3 {
+    padding: 0.75rem !important;
+  }
+
+  .p-4 {
+    padding: 1.5rem !important;
+  }
+}

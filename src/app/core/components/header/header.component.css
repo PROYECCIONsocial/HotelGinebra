@@ -1,0 +1,40 @@
+.navbar {
+  height: 80px; /* Altura ligeramente aumentada */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1030;
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+
+    .logo-img {
+      height: 67px; /* Tamaño del logo */
+      border-radius: 8px;
+    }
+
+    .eslogan {
+      font-size: 1.2rem;
+      color: #333;
+    }
+  }
+
+  .nav-item {
+    margin: 0 8px; /* Espacio entre ítems */
+
+    .nav-link {
+      font-size: 1rem; /* Tamaño de fuente */
+      color: #555;
+      padding: 6px 12px; /* Padding ajustado */
+      border-radius: 5px;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: red;
+        color: #fff !important;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

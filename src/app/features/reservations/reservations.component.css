@@ -1,0 +1,31 @@
+.container h2, .container h4 {
+  color: #333;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  font-size: 1.1em;
+}
+
+.card-title {
+  font-size: 1.2em;
+}
+
+form .form-control {
+  border-radius: 5px;
+  border-color: red;
+}
+
+form .btn {
+  border-radius: 5px;
+  border-color: red;
+  background-color: red;
+}
+
+h4 {
+  margin-top: 30px;
+}

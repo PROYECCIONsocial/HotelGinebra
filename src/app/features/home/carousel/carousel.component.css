@@ -1,0 +1,20 @@
+.carousel {
+  .carousel-inner {
+    .carousel-item {
+      img {
+        height: 550px; /* Ajusta la altura según sea necesario */
+        object-fit: cover;
+      }
+    }
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    border-radius: 50%; /* Hacer el icono circular */
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para indicadores */
+  }
+}

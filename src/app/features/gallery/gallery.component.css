@@ -1,0 +1,23 @@
+.card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.modal-content {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+}
