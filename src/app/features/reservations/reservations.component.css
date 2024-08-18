@@ -17,13 +17,13 @@
 
 form .form-control {
   border-radius: 5px;
-  border-color: red;
+  border-color: #d8ac64;
 }
 
 form .btn {
   border-radius: 5px;
-  border-color: red;
-  background-color: red;
+  border-color: #d8ac64;
+  background-color: #d8ac64;
 }
 
 h4 {

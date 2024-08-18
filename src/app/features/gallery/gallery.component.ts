@@ -7,12 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GalleryComponent {
   images = [
-    { src: '../../../assets/images/imagen1.png', alt: 'Imagen 1' },
-    { src: '../../../assets/images/imagen2.png', alt: 'Imagen 2' },
-    { src: '../../../assets/images/imagen3.png', alt: 'Imagen 3' },
-    { src: '../../../assets/images/servicios.png', alt: 'Imagen 4' },
-    { src: '../../../assets/images/habitacion.jpeg', alt: 'Imagen 5' },
-    { src: '../../../assets/images/eventos.png', alt: 'Imagen 6' }
+    { src: '../../../assets/images/habitaciondoble.jpg', alt: 'Habitación doble' },
+    { src: '../../../assets/images/habitaciontriple1.jpg', alt: 'Habitación triple' },
+    { src: '../../../assets/images/habitaciontriple2.jpg', alt: 'Habitación triple' },
+    { src: '../../../assets/images/habitaciontriple3.jpg', alt: 'Habitación triple' },
+    { src: '../../../assets/images/pasillo1.jpg', alt: 'Pasillo' },
+    { src: '../../../assets/images/pasillo2.jpg', alt: 'Muebles pasillo' },
+    { src: '../../../assets/images/pasillo3.jpg', alt: 'Gym pasillo' },
+    { src: '../../../assets/images/habitacion.jpeg', alt: 'Habitacion matrimonial' },
+    { src: '../../../assets/images/servicios.png', alt: 'Mini Gym' }
   ];
 
   constructor() { }

@@ -1,40 +1,58 @@
+/* Estilos generales */
 .navbar {
-  height: 80px; /* Altura ligeramente aumentada */
-  background-color: #fff;
-  border-radius: 8px;
+  height: 80px;
+  background-color: #fefeff !important; /* Asegura el color con !important */
+  border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1030;
+}
 
-  .navbar-brand {
-    display: flex;
-    align-items: center;
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
 
-    .logo-img {
-      height: 67px; /* Tamaño del logo */
-      border-radius: 8px;
-    }
+.logo-img {
+  height: 67px;
+  border-radius: 8px;
+}
 
-    .eslogan {
-      font-size: 1.2rem;
-      color: #333;
-    }
+.nav-item {
+  margin: 0 8px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #555;
+  padding: 6px 12px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #d8ac64;
+  color: #fff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.85); /* Fondo blanco con 85% de opacidad */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle un poco más de profundidad */
   }
 
-  .nav-item {
-    margin: 0 8px; /* Espacio entre ítems */
+  .navbar-toggler {
+    border: none; /* Elimina el borde del botón de hamburguesa */
+  }
 
-    .nav-link {
-      font-size: 1rem; /* Tamaño de fuente */
-      color: #555;
-      padding: 6px 12px; /* Padding ajustado */
-      border-radius: 5px;
-      transition: all 0.3s;
+  .navbar-toggler-icon {
+    filter: brightness(0.8); /* Hace que el ícono sea un poco más oscuro para mejor visibilidad */
+  }
 
-      &:hover {
-        background-color: red;
-        color: #fff !important;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-      }
-    }
+  .nav-link {
+    color: #333 !important; /* Color de texto más oscuro para mejor visibilidad */
   }
 }
