@@ -14,6 +14,7 @@ import { ContactComponent } from './features/contact/contact.component';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { CarouselComponent } from './features/home/carousel/carousel.component';
+import { TarifasComponent } from './tarifas/tarifas.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { CarouselComponent } from './features/home/carousel/carousel.component';
     LocationComponent,
     AboutUsComponent,
     ContactComponent,
-    CarouselComponent
+    CarouselComponent,
+    TarifasComponent
   ],
   imports: [
     BrowserModule,

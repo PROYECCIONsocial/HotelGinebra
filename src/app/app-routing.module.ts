@@ -7,11 +7,13 @@ import { GalleryComponent } from './features/gallery/gallery.component';
 import { LocationComponent } from './features/location/location.component';
 import { AboutUsComponent } from './features/about-us/about-us.component';
 import { ContactComponent } from './features/contact/contact.component';
+import { TarifasComponent } from './tarifas/tarifas.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'rooms', component: RoomsComponent },
   { path: 'reservations', component: ReservationsComponent },
+  { path: 'tarifas', component: TarifasComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'location', component: LocationComponent },
   { path: 'about-us', component: AboutUsComponent },

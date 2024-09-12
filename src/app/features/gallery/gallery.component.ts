@@ -14,8 +14,14 @@ export class GalleryComponent {
     { src: '../../../assets/images/pasillo1.jpg', alt: 'Pasillo' },
     { src: '../../../assets/images/pasillo2.jpg', alt: 'Muebles pasillo' },
     { src: '../../../assets/images/pasillo3.jpg', alt: 'Gym pasillo' },
-    { src: '../../../assets/images/habitacion.jpeg', alt: 'Habitacion matrimonial' },
-    { src: '../../../assets/images/servicios.png', alt: 'Mini Gym' }
+    { src: '../../../assets/images/habitacionmatrimonial.jpg', alt: 'Habitacion matrimonial' },
+    { src: '../../../assets/images/servicios.jpg', alt: 'Mini Gym' },
+    { src: '../../../assets/images/habitacion1.jpg', alt: 'Habitación' },
+    { src: '../../../assets/images/habitacion2.jpg', alt: 'Habitación' },
+    { src: '../../../assets/images/habitaciondoble2.jpg', alt: 'Habitación doble' },
+    { src: '../../../assets/images/Instalaciones1.jpg', alt: 'Pasillos' },
+    { src: '../../../assets/images/Instalaciones2.jpg', alt: 'Pasillos' },
+    { src: '../../../assets/images/pasillo1.jpg', alt: 'Pasillos' },
   ];
 
   constructor() { }
